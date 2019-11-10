@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+            <td id="display" colspan="5">> </td>
+            </tr>
+            <tr>
+                <td onclick="display.call(this)">1</td>
+                <td onclick="display.call(this)">2</td>
+                <td onclick="display.call(this)">3</td>
+                <td onclick="display.call(this)">4</td>
+                <td onclick="display.call(this)">5</td>
+            </tr>
+            <tr>
+                <td onclick="display.call(this)">6</td>
+                <td onclick="display.call(this)">7</td>
+                <td onclick="display.call(this)">8</td>
+                <td onclick="display.call(this)">9</td>
+                <td onclick="display.call(this)">0</td>
+            </tr>
+            <tr>
+                <td onclick="display.call(this)">+</td>
+                <td onclick="display.call(this)">-</td>
+                <td onclick="display.call(this)">*</td>
+                <td onclick="display.call(this)">/</td>
+                <td onclick="display.call(this)">%</td>
+            </tr>
+            <tr>
+                <td colspan="2" onclick="clearFunc()">Clear</td>
+            </td>
+                <td colspan="3" onclick="calculate()">Calculate</td>
+            </td>
+            </tr>
+        </table>
+    </body>
+</html>
