@@ -1,0 +1,59 @@
+student {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+} 
+#s1 {
+    color: red;
+    background-color: black;
+    padding: 18px;
+    border-bottom: solid black 1px;
+}
+#s2 {
+    color: green;
+    background-color: whitesmoke;
+    padding: 18px;
+    border-bottom: solid black 1px;
+}
+#s3 {
+    color: blue;
+    background-color: darkgray;
+    padding: 18px;
+    padding-bottom: 10px;
+}
+name {
+    display: block;
+}
+age {
+    display: block;
+}
+usn {
+    display: block;
+}
+email {
+    display: block;
+}
+branch {
+    display: block;
+}
+college {
+    display: block;
+}
+name:before {
+    content: "Name: ";
+}
+age:before {
+    content: "Age: ";
+}
+usn:before {
+    content: "USN: ";
+}
+email:before {
+    content: "Email: ";
+}
+branch:before {
+    content: "Branch: ";
+}
+college:before {
+    content: "College: ";
+}

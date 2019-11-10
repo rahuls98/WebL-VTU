@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./style.css"?>
+
+<students>
+    <student id="s1">
+        <name>S1</name>
+        <age>A1</age>
+        <usn>USN1</usn>
+        <email>email1</email>
+        <branch>branch1</branch>
+        <college>college1</college>
+    </student>
+
+    <student id="s2">
+        <name>S2</name>
+        <age>A2</age>
+        <usn>USN2</usn>
+        <email>email2</email>
+        <branch>branch2</branch>
+        <college>college2</college>
+    </student>
+
+    <student id="s3">
+        <name>S3</name>
+        <age>A3</age>
+        <usn>USN3</usn>
+        <email>email3</email>
+        <branch>branch3</branch>
+        <college>college3</college>
+    </student>
+</students>
