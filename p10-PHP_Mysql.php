@@ -1,7 +1,7 @@
 <?php
     $sname = "localhost";
     $uname = "root";
-    $pname = "rahul_s98";
+    $pname = "";
     $dname = "weblab";
 
     $conn = new mysqli($sname, $uname, $pname, $dname);
